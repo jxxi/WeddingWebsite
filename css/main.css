@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -51,7 +51,7 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
@@ -116,9 +116,27 @@ a, a:focus, a:hover {
   background: #f9f9ff;
 }
 
-h1, h2, h3,
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Pacifico", cursive;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Great Vibes", cursive;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -130,13 +148,13 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 600;
   color: #222222;
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 100px;
 }
 
 h2, .h2 {
@@ -158,6 +176,47 @@ h5, .h5 {
 h6, .h6 {
   font-size: 14px;
   color: #222222;
+}
+
+.banner-text {
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    line-height: 43px;
+    display = flex;
+    display: -ms-flexbox;
+    position: relative;
+    -ms-flex-pack: center;
+    -moz-justify-content: center;
+    justify-content: center;
+}
+
+.banner-text_city, .banner-text_date {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.banner-text span {
+    padding: 0 15px;
+    display: inline-block;
+}
+
+span.banner-text_names:before {
+    left: -1px;
+}
+
+span.banner-text_names:before, span.banner-text_names:after {
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    background-color: #fff;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 td, th {
@@ -1915,6 +1974,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  width: 50px;
 }
 
 @media (max-width: 768px) {
@@ -1993,7 +2053,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #nav-menu-container {
-    padding-right: 60px;
+
   }
 }
 
@@ -2010,7 +2070,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: #222;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   text-transform: uppercase;
   outline: none;
 }
@@ -2120,23 +2180,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #mobile-nav ul li li {
   padding-left: 30px;
-}
-
-#mobile-nav ul .menu-has-children i {
-  position: absolute;
-  right: 0;
-  z-index: 99;
-  padding: 15px;
-  cursor: pointer;
-  color: #fff;
-}
-
-#mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #df003a;
-}
-
-#mobile-nav ul .menu-has-children li a {
-  text-transform: none;
 }
 
 #mobile-nav ul .menu-item-active {
@@ -2269,22 +2312,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-content {
   margin-top: -90px;
   text-align: center;
+  width: 100%;
 }
 
 .banner-content h1 {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 90px;
+  font-weight: 400;
   line-height: 1em;
   margin-top: 20px;
 }
 
 .banner-content h1 span {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 @media (max-width: 991.98px) {
   .banner-content h1 {
-    font-size: 36px;
+    font-size: 90px;
   }
 }
 
@@ -2296,13 +2340,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1199.98px) {
   .banner-content h1 {
-    font-size: 45px;
+    font-size: 90px;
   }
 }
 
 @media (max-width: 414px) {
   .banner-content h1 {
-    font-size: 32px;
+    font-size: 90px;
   }
 }
 
@@ -2986,4 +3030,44 @@ h6 {
 
 .switch-wrap p {
   margin: 0;
+}
+
+
+
+.form-container{
+  padding:10px;
+  padding-bottom:25px;
+  margin:0 auto;
+  margin-top:20px;
+  width:50%;
+  border-radius:20px;
+  background-color: #ececec;
+}
+
+.add-one{
+  text-align:center;
+  font-weigth:bolder;
+  cursor:pointer;
+}
+
+.delete{
+  color:white;
+  text-align:center;
+  font-weight:700;
+  cursor:pointer;
+}
+
+#singlebutton{
+  width:100%;
+  margin-top:20px;
+}
+
+.title{
+  text-align:center;
+  font-size:40px;
+  margin-bottom:40px;
+}
+
+.dynamic-element{
+  margin-bottom:0px;
 }
