@@ -3053,7 +3053,6 @@ h6 {
 .delete{
   color:white;
   text-align:center;
-  font-weight:700;
   cursor:pointer;
 }
 
@@ -3070,4 +3069,9 @@ h6 {
 
 .dynamic-element{
   margin-bottom:0px;
+}
+
+.submit-btn{
+  align-items: center;
+  margin-top:20px;
 }
