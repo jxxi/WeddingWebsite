@@ -625,10 +625,6 @@ td, th {
   font-style: italic;
 }
 
-.text-white {
-  color: #fff;
-}
-
 .text-black {
   color: #000;
 }
@@ -2527,12 +2523,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 16px 32px;
 }
 
-.callto-action-area {
+.countdown-area {
   background: url(../img/callaction-bg.jpg) center;
   background-size: cover;
 }
 
-.callto-action-area .primary-btn {
+.countdown-area .primary-btn {
   text-transform: capitalize;
   border-radius: 0;
   background-color: #df003a;
@@ -2544,14 +2540,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
-.callto-action-area .primary-btn:hover {
+.countdown-area .primary-btn:hover {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
 }
 
-.callto-action-area .overlay-bg {
+.countdown-area .overlay-bg {
   background: rgba(4, 9, 30, 0.6);
+  opacity: .5;
 }
 
 .single-price {
