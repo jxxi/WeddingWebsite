@@ -207,6 +207,7 @@ h6, .h6 {
 .banner-text span {
     padding: 0 15px;
     display: inline-block;
+    color: white;
 }
 
 :after, :before {
@@ -1934,6 +1935,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  color: white;
 }
 
 #header.header-scrolled {
@@ -1982,6 +1984,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
+
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -2313,7 +2316,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(../img/splash.jpg) center;
   background-size: cover;
 }
 
@@ -2328,6 +2331,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 400;
   line-height: 1em;
   margin-top: 20px;
+  color: white;
 }
 
 .banner-content h1 span {
