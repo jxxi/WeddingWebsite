@@ -2729,7 +2729,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area {
-  padding-top: 100px;
+  padding-top: 10px;
   background-color: #222222;
 }
 
@@ -2813,29 +2813,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 h6 {
   color: #fff;
   margin-bottom: 25px;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 600;
 }
 
 .copy-right-text i, .copy-right-text a {
   color: #df003a;
-}
-
-.instafeed {
-  margin: -5px;
-}
-
-.instafeed li {
-  overflow: hidden;
-  width: 25%;
-}
-
-.instafeed li img {
-  margin: 5px;
-}
-
-.footer-social {
-  text-align: right;
 }
 
 .footer-social a {
