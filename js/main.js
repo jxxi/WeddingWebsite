@@ -148,8 +148,10 @@ $(document).ready(function(){
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+			$('#header').removeClass('header-static');
     } else {
       $('#header').removeClass('header-scrolled');
+			$('#header').addClass('header-static');
     }
   })
 
@@ -178,7 +180,7 @@ $(document).ready(function(){
         }
     });
 
-        $('.active-tstimonial-carusel').owlCarousel({
+        $('.active-person-carusel').owlCarousel({
         items:3,
         margin:30,
         autoplay:true,

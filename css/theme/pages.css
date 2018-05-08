@@ -372,29 +372,29 @@
   font-size: 20px;
 }
 
-.testimonial-area {
+.people-area {
   background-color: #f9f9ff;
 }
 
-.testimonial-area .owl-controls {
+.people-area .owl-controls {
   position: absolute;
   left: 101%;
   top: 25%;
 }
 
 @media (max-width: 1024px) {
-  .testimonial-area .owl-controls {
+  .people-area .owl-controls {
     position: relative;
     text-align: center;
     left: 0;
     top: 20px;
   }
-  .testimonial-area .owl-controls .owl-prev, .testimonial-area .owl-controls .owl-next {
+  .people-area .owl-controls .owl-prev, .people-area .owl-controls .owl-next {
     display: inline-block;
   }
 }
 
-.testimonial-area .lnr-arrow-up, .testimonial-area .lnr-arrow-down {
+.people-area .lnr-arrow-up, .people-area .lnr-arrow-down {
   background-color: white;
   box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2);
   padding: 14px;
