@@ -1,6 +1,14 @@
 	<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
+
+	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+  <script type="text/javascript">
+     (function(){
+        emailjs.init("user_IUsV8GrDd8JVHWL9rMfob");
+     })();
+  </script>
 	<head>
+		<script src="js/jquery-2.2.4.min.js"></script>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
@@ -401,10 +409,10 @@
 							<div class="row d-flex justify-content-center">
 								<div class="title text-center">
 									<h1 class="mb-10">Join Us</h1>
-									<p>Please reserve before</p>
+									<p>Please reserve before April 13th</p>
 								</div>
 							</div>
-							<div class="row d-flex justify-content-center">
+							<div class="row d-flex" style="margin-left: 60px;">
 								<div class="form-wrapper col col-md-8">
 									<form id="rsvp-form" method="post">
 										<div class="form-row">
@@ -419,14 +427,12 @@
 											    I Am Attending*
 											  </button>
 											  <div class="dropdown-menu" aria-labelledby="attendingDropdown">
-											    <a class="dropdown-item" href="#">All Events</a>
-											    <a class="dropdown-item" href="#">Wedding Ceremony</a>
-											    <a class="dropdown-item" href="#">Reception</a>
+											    <a class="dropdown-item" href="#">I Cannot Attend</a>
 											  </div>
 										  </div>
 											<div class="form-group col col-sm-1">
 												<button class="btn btn-secondary add-one" type="button" id="newGuestButton" class="add-button"  aria-haspopup="true" aria-expanded="false">
-													Add Guest
+													Add Guest  (*Family member or plus one)
 												</button>
 											</div>
 										</div>
@@ -435,7 +441,7 @@
 											</div>
 										</div>
 										<div class="form-row d-flex justify-content-center">
-											<div class="col col-md-2 submit-btn">
+											<div class="col col-md-2 submit-btn justify-content-center">
 													<button type="submit" class="submit btn btn-secondary">Send Reservation</button>
 													<!-- <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span> -->
 											</div>
@@ -452,7 +458,7 @@
 				</div>
 				<div class="form-row form-group dynamic-element" style="display:none">
 					<div class="col col-md-10">
-						<input type="text" class="form-control" id="guestInput" placeholder="Guest Name">
+						<input type="text" class="form-control guestInput" id="guestInput" placeholder="Guest Name">
 					</div>
 					<div class="col-md-2">
 						<button class="delete btn btn-secondary btn-xs" id="deleteButton" style="margin-bottom: 5px;">
@@ -471,24 +477,12 @@
 							<p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
 								Copyright &copy; <script>document.write(new Date().getFullYear());</script>  All rights reserved <i class="fa fa-heart-o" aria-hidden="true"></i> by Jasmine Wiggins</a>
 							</p>
-							<!-- <div class="row">
-								<h6 class="col-lg-4 col-sm-12 footer-text m-0 text-white">
-									Follow us!
-								</h6>
-							</div>
-							<div class="row">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-dribbble"></i></a>
-								<a href="#"><i class="fa fa-behance"></i></a>
-							</div> -->
 						</div>
 					</div>
 				</div>
 			</footer>
 			<!-- End footer Area -->
 
-			<script src="js/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 			<script src="js/bootstrap.min.js"></script>
 			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
