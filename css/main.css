@@ -72,6 +72,8 @@ figure {
   margin: 0;
 }
 
+*[hidden] { display: none; }
+
 a {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2152,6 +2154,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
+  color: #222;
+}
+
+#mobile-nav a {
+  background: #fff;
+  color: #222;
 }
 
 #mobile-nav ul {
@@ -2580,7 +2588,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .rsvp-area {
-  background-color: #f9f9ff;
 }
 
 .events-area {
@@ -2701,10 +2708,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .person-info {
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   background: #fff;
   text-align: center;
   border: 1px solid #eee;
+  margin: 0px 10px 20px 0px;
 }
 
 .person-info .desc {
@@ -3164,6 +3172,38 @@ h6 {
   border-bottom: 14px solid transparent;
   content: " ";
 }
+.timeline > li > .timeline-panel-inverted {
+  width: 46%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline > li > .timeline-panel-inverted:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel-inverted:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
 .timeline > li > .timeline-badge {
   color: #fff;
   width: 50px;
@@ -3197,9 +3237,24 @@ h6 {
   left: -14px;
   right: auto;
 }
+.timeline > li > .timeline-panel-inverted {
+  float: right;
+}
+.timeline > li > .timeline-panel-inverted:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li > .timeline-panel-inverted:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
 .timeline img {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 65%;
+  max-height: 65%;
 }
 .timeline-badge.year {
   background-color: #5bc0de !important;

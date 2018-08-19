@@ -153,54 +153,6 @@ $(document).ready(function(){
       $('#header').removeClass('header-scrolled');
 			$('#header').addClass('header-static');
     }
-  })
-
-    $('.active-course-carusel').owlCarousel({
-        items:3,
-        loop:true,
-        margin:30,
-        dots: true,
-        nav:true,
-        navText: ["<span class='lnr lnr-arrow-up'></span>",
-        "<span class='lnr lnr-arrow-down'></span>"],
-            responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1,
-            },
-            768: {
-                items: 2,
-            },
-            900: {
-                items: 3,
-            }
-
-        }
-    });
-
-        $('.active-person-carusel').owlCarousel({
-        items:3,
-        margin:30,
-        autoplay:true,
-        loop:true,
-        dots: true,
-            responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1,
-            },
-            768: {
-                items: 2,
-            },
-            900: {
-                items: 3,
-            }
-
-        }
-    });
+  });
 
  });
