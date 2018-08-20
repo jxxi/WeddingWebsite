@@ -2110,9 +2110,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 50px;
   z-index: 999;
-  top: 16px;
+  /*top: 16px;*/
   border: 0;
   background: none;
   font-size: 24px;
