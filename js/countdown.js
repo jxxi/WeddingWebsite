@@ -5,7 +5,7 @@ $(document).ready(function(){
   var one_day = 1000*60*60*24;
   var days_until = Math.ceil((wedding_day.getTime()-today.getTime())/(one_day));
 
-  var clock = $('.your-clock').FlipClock( 3600 * 24 * days_until,{
+  var clock = $('.wed-countdown').FlipClock( 3600 * 24 * days_until,{
       clockFace: 'DailyCounter',
       countdown: true
   });

@@ -23,14 +23,6 @@ $(document).ready(function(){
       }
   });
 
-  $('.play-btn').magnificPopup({
-      type: 'iframe',
-      mainClass: 'mfp-fade',
-      removalDelay: 160,
-      preloader: false,
-      fixedContentPos: false
-  });
-
   // Initiate superfish on nav menu
   $('.nav-menu').superfish({
     animation: {
@@ -117,10 +109,9 @@ $(document).ready(function(){
 
 
   $(document).ready(function() {
+  	$('html, body').hide();
 
-  $('html, body').hide();
-
-      if (window.location.hash) {
+      if (window.location.hash){
 
       setTimeout(function() {
 

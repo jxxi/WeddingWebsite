@@ -4,7 +4,6 @@ $('.add-one').click(function(){
   attach_delete();
 });
 
-
 //Attach functionality to delete buttons
 function attach_delete(){
   $('.delete').off();
