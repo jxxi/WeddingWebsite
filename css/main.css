@@ -182,8 +182,8 @@ h6, .h6 {
 
 .banner-text {
     font-family: "Dosis", sans-serif;
-    font-size: 30px;
-    line-height: 43px;
+    font-size: 25px;
+    line-height: 30px;
     display = flex;
     display: -ms-flexbox;
     position: relative;
@@ -192,21 +192,16 @@ h6, .h6 {
     justify-content: center;
 }
 
-.banner-text_city {
-    font-size: 20px;
-    line-height: 23px;
-    border-right: 3px solid white;
-    height: 40px;
-}
-
-.banner-text_date {
-    font-size: 20px;
-    line-height: 23px;
-    border-left: 3px solid white;
-    height: 40px;
+.banner-text-city {
+    /*font-size: 20px;
+    line-height: 23px;*/
+    align-content: left;
+    border-right: 3px solid white muted;
+    /*height: 40px;*/
 }
 
 .banner-text span {
+    align-content: right;
     padding: 0 15px;
     display: inline-block;
     color: white;
