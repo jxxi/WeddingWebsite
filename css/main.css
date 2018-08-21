@@ -2589,7 +2589,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: .5;
 }
 
-.rsvp-area {
+.rsvp-area p{
+  line-height: 36px;
 }
 
 .events-area {
