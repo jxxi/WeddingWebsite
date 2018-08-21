@@ -7,6 +7,7 @@ $(document).ready(function(){
 
   var clock = $('.wed-countdown').FlipClock( 3600 * 24 * days_until,{
       clockFace: 'DailyCounter',
-      countdown: true
+      countdown: true,
+      showSeconds: false
   });
 });
