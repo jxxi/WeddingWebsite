@@ -2723,6 +2723,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .person-info img{
+  width: 80px;
   border-radius: 50%;
   height: auto;
   -webkit-border-radius: 50%;
