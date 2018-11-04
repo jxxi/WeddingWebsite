@@ -5,4 +5,4 @@ http://jasmineandstefan.com
 
 
 
-![Home page](/img/screenshot.jpg?raw=true "Home Page")
+![Home page](/img/screenshot.png?raw=true "Landing Page")
